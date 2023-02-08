@@ -7,8 +7,8 @@ Parameters:
     Default: production
   
 Outputs:
-  ReportServiceApiEndpoint:
-    Description: "Report-Service API endpoint"
+  TestEndpoint:
+    Description: "endpoint"
     Value: !Sub "${Env}etests"
     Export:
-      Name: !Sub 'um-report-service-endpoint-${Env}'
+      Name: !Sub 'endpoint-${Env}'
